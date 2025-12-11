@@ -1,0 +1,48 @@
+body {
+    background-color: rgb(20, 25, 30);
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: black;
+    width: 100%;
+    height: 6vh;
+    box-shadow: 1px 2px 3px rgb(90, 90, 90);
+}
+
+.profile-container {
+    background-color: rgb(18, 18, 21);
+    width: 600px;
+    height: 650px;
+    border-radius: 2%;
+    margin-top: 50px;
+    padding-top: 20px;
+}
+
+.user-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+    color: white;
+    font-size: 18px;
+    padding-left: 20px;
+}
+
+.profile-username {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.profile-username:hover {
+    color: rgb(228, 228, 228);
+}
+
+.headshot {
+    width: 60px;
+    height: 60px;
+    border-radius: 10%;
+}
